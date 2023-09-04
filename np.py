@@ -16,7 +16,7 @@ PASS = ''
 BUFLEN = 4096 * 4
 TIMEOUT = 60
 DEFAULT_HOST = '127.0.0.1:22'
-RESPONSE = 'HTTP/1.1 101 Switching Protocols\r\nConnection: Upgrade\r\nUpgrade: websocket\r\n\r\n'
+RESPONSE = 'HTTP/1.1 101 <strong><font color="#2aa2e8">Sky</font><font color="#2cf62e">netw</font><font color="#2aa2e8">orks</font></strong>\r\nContent-length: 0r\n\r\nHTTP/1.1 101 Protocol Acces\r\n\r\n'
 
 class Server(threading.Thread):
     def __init__(self, host, port):
